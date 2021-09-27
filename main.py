@@ -92,7 +92,7 @@ if __name__ == '__main__':
 
 	# go on forever
 	while True:
-		print("Currently player: " + str(player))
+		print("Currently player::" + str(player))
 		row = convert_input_to_coordinate(int(input("Which row? (start with 1) ")))
 		column = convert_input_to_coordinate(int(input("Which column? (start with 1) ")))
 		game = add_piece(game, player, row, column)
