@@ -93,6 +93,7 @@ if __name__ == '__main__':
 	# go on forever
 	while True:
 		# Adding some comments
+		x = 3
 		print("Currently player::" + str(player))
 		row = convert_input_to_coordinate(int(input("Which row? (start with 1) ")))
 		column = convert_input_to_coordinate(int(input("Which column? (start with 1) ")))
