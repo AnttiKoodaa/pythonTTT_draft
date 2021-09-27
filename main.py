@@ -13,7 +13,7 @@ def display_winner(player):
 	if player == 0:
 		print("Tie")
 	else:
-		print("Player " + str(player) + " wins!")
+		print("Player:" + str(player) + " wins!")
 
 def check_row_winner(row):
 	"""
